@@ -64,34 +64,3 @@ function getAllItems() {
         getItemById()
     });
 }
-
-
-
-
-
-
-
-
-
-
-// function searchByArtist(artist) {
-//     var query = 'select * from top1000 where artist = ?';
-//     connection.query(query, [artist], function (err, data) {
-//         if (err) throw err;
-//         for (var x = 0; x < data.length; x++) {
-//             console.log(data[x].artist, data[x].song, data[x].release_year);
-//         }
-//         start();
-//     });
-// }
-
-// function searchByYear(year) {
-//     var query = 'select * from top1000 where release_year = ?';
-//     connection.query(query, [year], function (err, data) {
-//         if (err) throw err;
-//         for (var x = 0; x < data.length; x++) {
-//             console.log(data[x].artist, data[x].song, data[x].release_year);
-//         }
-//         start();
-//     });
-// }
